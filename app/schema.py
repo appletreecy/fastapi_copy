@@ -60,7 +60,7 @@ class PostOut(PostBase):
 
 class Vote(BaseModel):
     post_id: int
-    dir: conint(le=1)
+    dir: int
 
 
 class PostOne(BaseModel):
